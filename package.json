@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@now/node": "^1.1.2"
+  }
+}

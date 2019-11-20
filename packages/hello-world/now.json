@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "packages/hello-world/index.ts", "use": "@now/node" }
+    ],
+    "routes": [
+        { "src": "/.*", "dest": "/packages/hello-world/index.ts" }
+    ]
+}
